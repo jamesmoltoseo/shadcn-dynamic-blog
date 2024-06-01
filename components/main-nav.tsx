@@ -32,6 +32,15 @@ export function MainNav() {
       >
         About
       </Link>
+      <Link
+        href="/homepage"
+        className={cn(
+          "text-sm font-medium transition-colors hover:text-primary hidden sm:inline-block",
+          pathname === "/homepage" ? "text-foreground" : "text-foreground/60"
+        )}
+      >
+        home option
+      </Link>
     </nav>
   );
 }
