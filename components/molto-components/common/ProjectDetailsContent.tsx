@@ -34,7 +34,7 @@ const ProjectDetailsContent: FC<ProjectDetailsContentProps> = ({
           </div>
 
           <div className="col-md-2 ms-auto">
-            <img
+            <Image
               width={300}
               height={300}
               src={`/img/clients/${portfolio[0].title.toLowerCase().replace(/ /g, '-')}.jpg`}

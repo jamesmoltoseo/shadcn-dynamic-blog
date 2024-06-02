@@ -32,7 +32,7 @@ const Hero7: FC = () => {
         <div className="row mt-12" style={fadeInAnimate('1600ms')}>
           <div className="col-lg-8 mx-auto">
             <figure>
-              <img
+              <Image
                 alt=""
                 className="img-fluid"
                 src="/img/illustrations/i12.png"

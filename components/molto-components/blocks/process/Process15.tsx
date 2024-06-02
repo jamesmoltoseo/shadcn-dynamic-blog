@@ -7,7 +7,7 @@ const Process15: FC = () => {
     <div className="row gx-lg-8 gx-xl-12 gy-10 mb-15 mb-md-17 align-items-center">
       <div className="col-lg-7">
         <figure>
-          <img
+          <Image
             alt="process"
             className="w-auto"
             src="/img/illustrations/i9.png"

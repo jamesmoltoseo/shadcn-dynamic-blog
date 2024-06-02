@@ -6,7 +6,7 @@ const About26: FC = () => {
     <div className="row gx-3 gy-10 mb-14 mb-md-16 align-items-center">
       <div className="col-lg-6">
         <figure>
-          <img className="w-auto" src="/img/illustrations/3d8.png" srcSet="/img/illustrations/3d8@2x.png 2x" alt="" />
+          <Image className="w-auto" src="/img/illustrations/3d8.png" srcSet="/img/illustrations/3d8@2x.png 2x" alt="" />
         </figure>
       </div>
 

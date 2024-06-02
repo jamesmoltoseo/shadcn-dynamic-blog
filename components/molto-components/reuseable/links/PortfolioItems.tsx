@@ -34,7 +34,7 @@ const PortfolioItems: FC<PortfolioItemsProps> = ({ placement }) => {
             }
           >
             <div className="dropdown-item">
-              <img
+              <Image
                 alt={All.LocalSEOArrays[item].keywords[1].title}
                 src={
                   '/img/clients/' + All.LocalSEOArrays[item].keywords[1].title.toLowerCase().replace(/ /g, '-') + '.jpg'
@@ -61,7 +61,7 @@ const PortfolioItems: FC<PortfolioItemsProps> = ({ placement }) => {
             }
           >
             <div className="dropdown-item">
-              <img
+              <Image
                 alt={All.InternationalSEOArrays[item].keywords[1].title}
                 src={
                   '/img/clients/' +

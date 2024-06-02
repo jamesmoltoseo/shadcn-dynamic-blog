@@ -86,7 +86,7 @@ const Services12: FC = () => {
             <div className="col-lg-6">
               <div className="row gx-md-5 gy-5 align-items-center">
                 <div className="col-6">
-                  <img
+                  <Image
                     alt=""
                     src="/img/photos/sa13.jpg"
                     srcSet="/img/photos/sa13@2x.jpg 2x"
@@ -95,13 +95,13 @@ const Services12: FC = () => {
                 </div>
 
                 <div className="col-6">
-                  <img
+                  <Image
                     alt=""
                     src="/img/photos/sa14.jpg"
                     srcSet="/img/photos/sa14@2x.jpg 2x"
                     className="img-fluid rounded shadow-lg mb-5"
                   />
-                  <img
+                  <Image
                     alt=""
                     src="/img/photos/sa15.jpg"
                     srcSet="/img/photos/sa15@2x.jpg 2x"
@@ -120,13 +120,13 @@ const Services12: FC = () => {
             <div className="col-lg-6 order-lg-2">
               <div className="row gx-md-5 gy-5">
                 <div className="col-5">
-                  <img
+                  <Image
                     alt=""
                     src="/img/photos/sa9.jpg"
                     srcSet="/img/photos/sa9@2x.jpg 2x"
                     className="img-fluid rounded shadow-lg my-5 d-flex ms-auto"
                   />
-                  <img
+                  <Image
                     alt=""
                     src="/img/photos/sa10.jpg"
                     srcSet="/img/photos/sa10@2x.jpg 2x"
@@ -135,13 +135,13 @@ const Services12: FC = () => {
                 </div>
 
                 <div className="col-7">
-                  <img
+                  <Image
                     alt=""
                     src="/img/photos/sa11.jpg"
                     srcSet="/img/photos/sa11@2x.jpg 2x"
                     className="img-fluid rounded shadow-lg mb-5"
                   />
-                  <img
+                  <Image
                     alt=""
                     src="/img/photos/sa12.jpg"
                     srcSet="/img/photos/sa12@2x.jpg 2x"
@@ -160,13 +160,13 @@ const Services12: FC = () => {
             <div className="col-lg-6">
               <div className="row gx-md-5 gy-5">
                 <div className="col-6">
-                  <img
+                  <Image
                     alt=""
                     src="/img/photos/sa5.jpg"
                     srcSet="/img/photos/sa5@2x.jpg 2x"
                     className="img-fluid rounded shadow-lg mb-5"
                   />
-                  <img
+                  <Image
                     alt=""
                     src="/img/photos/sa6.jpg"
                     srcSet="/img/photos/sa6@2x.jpg 2x"
@@ -175,13 +175,13 @@ const Services12: FC = () => {
                 </div>
 
                 <div className="col-6">
-                  <img
+                  <Image
                     alt=""
                     src="/img/photos/sa7.jpg"
                     srcSet="/img/photos/sa7@2x.jpg 2x"
                     className="img-fluid rounded shadow-lg my-5"
                   />
-                  <img
+                  <Image
                     alt=""
                     src="/img/photos/sa8.jpg"
                     srcSet="/img/photos/sa8@2x.jpg 2x"

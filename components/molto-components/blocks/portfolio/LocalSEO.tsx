@@ -36,7 +36,7 @@ const LocalSEO: FC<titleType> = ({ initialslide }) => {
             >
               <div className="dropdown-item">
                 <figure className="w-100 overflow-hidden">
-                  <img
+                  <Image
                     alt={All.LocalSEOArrays[item].keywords[1].title}
                     src={
                       '/img/clients/' +

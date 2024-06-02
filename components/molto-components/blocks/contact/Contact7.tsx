@@ -11,7 +11,7 @@ const Contact7: FC = () => {
             <div className="shape bg-dot primary rellax w-17 h-21" style={{ top: '-2rem', left: '-1.4rem' }} />
 
             <figure className="rounded">
-              <img src="/img/photos/about4.jpg" srcSet="/img/photos/about4@2x.jpg 2x" alt="" />
+              <Image src="/img/photos/about4.jpg" srcSet="/img/photos/about4@2x.jpg 2x" alt="" />
             </figure>
           </div>
 

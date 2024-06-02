@@ -27,7 +27,7 @@ const Hero26: FC = () => {
           </div>
 
           <div className="col-10 col-md-7 mx-auto col-lg-6 col-xl-5 ms-xl-5">
-            <img
+            <Image
               className="img-fluid mb-n12 mb-md-n14 mb-lg-n19"
               src="/img/illustrations/3d11.png"
               srcSet="/img/illustrations/3d11@2x.png 2x"
@@ -40,7 +40,7 @@ const Hero26: FC = () => {
       </div>
 
       <figure>
-        <img src="/img/photos/clouds.png" alt="" />
+        <Image src="/img/photos/clouds.png" alt="" />
       </figure>
     </section>
   );

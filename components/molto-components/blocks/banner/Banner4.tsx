@@ -28,7 +28,7 @@ const Banner4: FC<Banner4Props> = ({ hideShape, imageName = 'about12', btnColor 
       )}
 
       <figure className="rounded">
-        <img src={`/img/photos/${imageName}.jpg`} srcSet={`/img/photos/${imageName}@2x.jpg 2x`} alt={imageName} />
+        <Image src={`/img/photos/${imageName}.jpg`} srcSet={`/img/photos/${imageName}@2x.jpg 2x`} alt={imageName} />
       </figure>
     </Fragment>
   );

@@ -18,14 +18,14 @@ const Tiles7: FC = () => {
 
       <div className="row gx-md-5 gy-5 position-relative">
         <div className="col-6">
-          <img
+          <Image
             alt="demo"
             src="/img/photos/sa5.jpg"
             srcSet="/img/photos/sa5@2x.jpg 2x"
             className="img-fluid rounded shadow-lg mb-5"
             style={fadeInAnimate('300ms')}
           />
-          <img
+          <Image
             alt="demo"
             src="/img/photos/sa6.jpg"
             srcSet="/img/photos/sa6@2x.jpg 2x"
@@ -35,14 +35,14 @@ const Tiles7: FC = () => {
         </div>
 
         <div className="col-6">
-          <img
+          <Image
             alt="demo"
             src="/img/photos/sa7.jpg"
             srcSet="/img/photos/sa7@2x.jpg 2x"
             className="img-fluid rounded shadow-lg my-5"
             style={fadeInAnimate('900ms')}
           />
-          <img
+          <Image
             alt="demo"
             src="/img/photos/sa8.jpg"
             srcSet="/img/photos/sa8@2x.jpg 2x"

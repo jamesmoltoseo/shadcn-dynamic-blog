@@ -10,7 +10,7 @@ const Hero8: FC = () => {
       <div className="card-body p-md-10 py-xl-11 px-xl-15">
         <div className="row gx-lg-8 gx-xl-0 gy-10 align-items-center">
           <div className="col-lg-6 order-lg-2 d-flex position-relative">
-            <img
+            <Image
               alt="demo"
               src="/img/photos/co3.png"
               srcSet="/img/photos/co3@2x.png 2x"

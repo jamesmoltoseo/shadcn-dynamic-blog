@@ -7,7 +7,7 @@ const Testimonial21: FC = () => {
         className="rounded position-absolute d-none d-lg-block"
         style={{ top: '50%', right: 0, width: '45%', height: 'auto', zIndex: 2, transform: 'translateY(-50%)' }}
       >
-        <img src="/img/photos/tei1.jpg" srcSet="/img/photos/tei1@2x.jpg 2x" alt="" />
+        <Image src="/img/photos/tei1.jpg" srcSet="/img/photos/tei1@2x.jpg 2x" alt="" />
       </figure>
 
       <div className="col-lg-9 text-center">

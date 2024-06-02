@@ -101,7 +101,7 @@ const Services22: FC<titleType> = ({ title, wordCloud }) => {
               <div className="col-lg-6">
                 <figure>
                   {/* className="rounded shadow-lg" */}
-                  <img
+                  <Image
                     src={`/img/${wordCloud.HomeList[2].title.replace(/ /g, '-').toLowerCase()}.png`}
                     // srcSet={`/img/${wordCloud.HomeList[2].title.replace(/ /g, '-').toLowerCase()}@2x.png 2x`}
                     alt={wordCloud.HomeList[2].title.toLowerCase()}
@@ -117,7 +117,7 @@ const Services22: FC<titleType> = ({ title, wordCloud }) => {
             <div className="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
               <div className="col-lg-6 order-lg-2">
                 <figure>
-                  <img
+                  <Image
                     src={`/img/${wordCloud.HomeList[4].title.replace(/ /g, '-').toLowerCase()}.png`}
                     // srcSet="/img/technical-seo-company@2x.png 2x"
                     alt={wordCloud.HomeList[4].title.toLowerCase()}
@@ -138,7 +138,7 @@ const Services22: FC<titleType> = ({ title, wordCloud }) => {
             <div className="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
               <div className="col-lg-6">
                 <figure>
-                  <img
+                  <Image
                     src={`/img/${wordCloud.HomeList[3].title.replace(/ /g, '-').toLowerCase()}.png`}
                     // srcSet="/img/technical-seo-company@2x.png 2x"
                     alt={wordCloud.HomeList[3].title.toLowerCase()}

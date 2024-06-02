@@ -10,7 +10,7 @@ const Footer17: FC = () => {
         <div className="row gx-lg-0 gy-6">
           <div className="col-lg-4">
             <div className="widget">
-              <img className="mb-4" src="/img/logo-dark.png" srcSet="/img/logo-dark@2x.png 2x" alt="" />
+              <Image className="mb-4" src="/img/logo-dark.png" srcSet="/img/logo-dark@2x.png 2x" alt="" />
               <p className="lead mb-0">
                 We are trusted by over 5000+ clients. Join them by using our services and grow your business.
               </p>

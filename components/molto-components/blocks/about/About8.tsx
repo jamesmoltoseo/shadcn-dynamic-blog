@@ -8,7 +8,7 @@ const About8: FC = () => {
     <div className="row gx-lg-8 gx-xl-12 gy-10 mb-15 mb-md-18 align-items-center">
       <div className="col-lg-7">
         <figure>
-          <img className="w-auto" src="/img/illustrations/i9.png" srcSet="/img/illustrations/i9@2x.png 2x" alt="" />
+          <Image className="w-auto" src="/img/illustrations/i9.png" srcSet="/img/illustrations/i9@2x.png 2x" alt="" />
         </figure>
       </div>
 

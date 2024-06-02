@@ -7,7 +7,7 @@ const Process5: FC = () => {
     <div className="row gx-lg-8 gx-xl-10 mb-lg-19 mb-xl-22 align-items-center">
       <div className="col-lg-6">
         <figure>
-          <img alt="how it work" src="/img/photos/device.png" srcSet="/img/photos/device@2x.png 2x" />
+          <Image alt="how it work" src="/img/photos/device.png" srcSet="/img/photos/device@2x.png 2x" />
         </figure>
       </div>
 

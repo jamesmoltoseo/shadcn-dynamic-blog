@@ -22,7 +22,7 @@ const Hero1Para: FC<titleType> = ({title, lead, body, src}) => {
           </div>
           <div className="col-lg-6">
             <figure>
-              <img 
+              <Image 
                 width={960}
                 height={600}
                 src={`/img/${src.toLowerCase().replace(/ /g, '-')}.png`}

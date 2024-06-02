@@ -29,7 +29,7 @@ const Footer1: FC<titleType> = ({ email, phone, address }) => {
         <div className="row gy-6 gy-lg-0">
           <div className="col-md-4 col-lg-3">
             <div className="widget">
-              <img
+              <Image
                 className="mb-4"
                 src="/img/logo/molto-seo-white.png"
                 srcSet="/img/logo/molto-seo-white.png 2x"

@@ -13,7 +13,7 @@ const Video: FC<titleType> = ({ heading, body, initialslide }) => {
       <div className="container pt-1 pt-md-1 pb-20 pb-md-20">
         <div className="row">
           <div className="col-lg-6 col-xl-6 col-xxl-5 mx-auto text-center mb-5">
-          <img
+          <Image
               width={120}
               height={120}
               src={`/img/${heading.replace(/ /g, '-').toLowerCase()}.jpg`}

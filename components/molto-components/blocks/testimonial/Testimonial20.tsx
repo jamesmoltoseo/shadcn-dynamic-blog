@@ -19,7 +19,7 @@ const Testimonial20: FC = () => {
         <div className="row gx-lg-8 gx-xl-12 align-items-center">
           <div className="col-lg-5 ms-auto col-xl-4 d-none d-lg-flex">
             <div className="img-mask mask-3">
-              <img src="/img/photos/about31.jpg" srcSet="/img/photos/about31@2x.jpg 2x" alt="" />
+              <Image src="/img/photos/about31.jpg" srcSet="/img/photos/about31@2x.jpg 2x" alt="" />
             </div>
           </div>
 

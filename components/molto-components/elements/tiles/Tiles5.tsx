@@ -11,7 +11,7 @@ const Tiles5: FC = () => {
         {images.map((item, i) => (
           <div className="item" key={item + i}>
             <figure className="rounded shadow">
-              <img src={`/img/photos/${item}.jpg`} srcSet={`/img/photos/${item}@2x.jpg 2x`} alt={item} />
+              <Image src={`/img/photos/${item}.jpg`} srcSet={`/img/photos/${item}@2x.jpg 2x`} alt={item} />
             </figure>
           </div>
         ))}

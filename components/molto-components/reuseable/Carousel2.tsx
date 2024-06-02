@@ -61,7 +61,7 @@ const Carousel2: FC = () => {
       >
         {thumbImages.map(({ url, id }) => (
           <SwiperSlide key={id}>
-            <img src={url} alt="product" />
+            <Image src={url} alt="product" />
           </SwiperSlide>
         ))}
       </SwiperCarousel>

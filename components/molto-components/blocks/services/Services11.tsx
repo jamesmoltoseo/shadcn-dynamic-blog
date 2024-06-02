@@ -13,7 +13,7 @@ const Services11: FC = () => {
         />
 
         <figure className="rounded">
-          <img src="/img/photos/about11.jpg" srcSet="/img/photos/about11@2x.jpg 2x" alt="" />
+          <Image src="/img/photos/about11.jpg" srcSet="/img/photos/about11@2x.jpg 2x" alt="" />
         </figure>
       </div>
 

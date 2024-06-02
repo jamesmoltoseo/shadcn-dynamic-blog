@@ -9,7 +9,7 @@ const Facts9: FC = () => {
     <div className="row" style={animation({ name: 'slideInUp', delay: '100ms' })}>
       <div className="col-12 mt-n20">
         <figure className="rounded">
-          <img src="/img/photos/about5.jpg" srcSet="/img/photos/about5@2x.jpg 2x" alt="" />
+          <Image src="/img/photos/about5.jpg" srcSet="/img/photos/about5@2x.jpg 2x" alt="" />
         </figure>
 
         <div className="col-xl-10 mx-auto">

@@ -19,7 +19,7 @@ const BlogSidebar: FC<BlogSidebarProps> = ({ thumbnail }) => {
         <h4 className="widget-title mb-3">About Us</h4>
         {thumbnail && (
           <figure className="rounded mb-4">
-            <img className="img-fluid" src={thumbnail} alt="" />
+            <Image className="img-fluid" src={thumbnail} alt="" />
           </figure>
         )}
         <p>

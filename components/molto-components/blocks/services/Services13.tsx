@@ -9,7 +9,7 @@ const Services13: FC = () => {
     <section className="wrapper bg-dark">
       <div className="container py-14 py-md-16">
         <figure className="rounded mt-md-n21 mt-lg-n23 mb-14" style={slideInDownAnimate('900ms')}>
-          <img src="/img/photos/about15.jpg" srcSet="/img/photos/about15@2x.jpg 2x" alt="" />
+          <Image src="/img/photos/about15.jpg" srcSet="/img/photos/about15@2x.jpg 2x" alt="" />
         </figure>
 
         <div className="row">

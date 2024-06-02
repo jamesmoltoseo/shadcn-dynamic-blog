@@ -22,7 +22,7 @@ const Hero14: FC = () => {
           <div className="shape bg-dot primary rellax w-17 h-21" style={{ top: '-2.5rem', right: '-2.7rem' }} />
 
           <figure className="rounded mb-md-n20">
-            <img src="/img/photos/about18.jpg" srcSet="/img/photos/about18@2x.jpg 2x" alt="" />
+            <Image src="/img/photos/about18.jpg" srcSet="/img/photos/about18@2x.jpg 2x" alt="" />
           </figure>
         </div>
       </div>

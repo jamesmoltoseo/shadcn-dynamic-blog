@@ -8,7 +8,7 @@ const Contact6: FC = () => {
         <div className="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
           <div className="col-lg-7">
             <figure>
-              <img className="w-auto" src="/img/illustrations/i5.png" srcSet="/img/illustrations/i5@2x.png 2x" alt="" />
+              <Image className="w-auto" src="/img/illustrations/i5.png" srcSet="/img/illustrations/i5@2x.png 2x" alt="" />
             </figure>
           </div>
 

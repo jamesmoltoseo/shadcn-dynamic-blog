@@ -89,7 +89,7 @@ const Navbar: FC<NavbarProps> = ({ isHome, ...props }) => {
           className="d-flex justify-content-center flex-row align-items-center"
         >
           <div>
-            <img className="logo" alt="Molto SEO" width="30" height="23" src={`/img/${logo}.png`} />
+            <Image className="logo" alt="Molto SEO" width="30" height="23" src={`/img/${logo}.png`} />
             <span className="logo-text">Molto SEO</span>
           </div>
         </Link>

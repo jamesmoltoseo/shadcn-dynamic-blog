@@ -19,7 +19,7 @@ const Hero24: FC = () => {
             <Carousel className="overflow-visible" grabCursor slidesPerView="auto" centeredSlides loop>
               {images.map((item) => (
                 <figure className="rounded" key={item}>
-                  <img src={item} alt="" />
+                  <Image src={item} alt="" />
                   <a className="item-link" href={item} data-glightbox data-gallery="gallery-group">
                     <i className="uil uil-focus-add" />
                   </a>

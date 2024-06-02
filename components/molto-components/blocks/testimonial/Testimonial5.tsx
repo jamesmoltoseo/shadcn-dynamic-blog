@@ -16,7 +16,7 @@ const Testimonial5: FC = () => {
             />
 
             <figure>
-              <img src="/img/photos/co1.png" srcSet="/img/photos/co1@2x.png 2x" alt="" />
+              <Image src="/img/photos/co1.png" srcSet="/img/photos/co1@2x.png 2x" alt="" />
             </figure>
           </div>
 

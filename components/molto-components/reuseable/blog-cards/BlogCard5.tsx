@@ -23,7 +23,7 @@ const BlogCard5: FC<BlogCard5Props> = (props) => {
   // legacyBehavior2 passHref2 
 href="#">
         <a>
-          <img src={image} alt="" />
+          <Image src={image} alt="" />
           <span className="bg" />
         </a>
       </Link>

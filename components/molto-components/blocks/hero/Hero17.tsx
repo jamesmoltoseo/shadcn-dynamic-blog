@@ -30,7 +30,7 @@ const Hero17: FC = () => {
       </div>
 
       <figure className="position-absoute" style={{ bottom: 0, left: 0, zIndex: 2 }}>
-        <img src="/img/photos/bg11.jpg" alt="" />
+        <Image src="/img/photos/bg11.jpg" alt="" />
       </figure>
     </section>
   );

@@ -35,8 +35,8 @@ const Navbar3: FC<Navbar3Props> = ({ navClassName, logoAlt, stickyBox }) => {
 
   const logos = (
     <>
-      <img className="logo-dark" src={`/img/${logoAlt}.png`} srcSet={`/img/${logoAlt}@2x.png 2x`} alt={logoAlt} />
-      <img className="logo-light" src="/img/logo-light.png" srcSet="/img/logo-light@2x.png 2x" alt="logo-light" />
+      <Image className="logo-dark" src={`/img/${logoAlt}.png`} srcSet={`/img/${logoAlt}@2x.png 2x`} alt={logoAlt} />
+      <Image className="logo-light" src="/img/logo-light.png" srcSet="/img/logo-light@2x.png 2x" alt="logo-light" />
     </>
   );
 
@@ -98,7 +98,7 @@ const Navbar3: FC<Navbar3Props> = ({ navClassName, logoAlt, stickyBox }) => {
   // legacyBehavior2 passHref2 
 href={url}>
                                 <a className="dropdown-item">
-                                  <img
+                                  <Image
                                     alt={title}
                                     src={`/img/demos/${thumnail}.jpg`}
                                     srcSet={`/img/demos/${thumnail}@2x.jpg 2x`}

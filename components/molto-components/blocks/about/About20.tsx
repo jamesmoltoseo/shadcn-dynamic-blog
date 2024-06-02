@@ -10,19 +10,19 @@ const About20: FC = () => {
         <div className="row gx-md-5 gy-5">
           <div className="col-12">
             <figure className="rounded mx-md-5">
-              <img src="/img/photos/g8.jpg" srcSet="/img/photos/g8@2x.jpg 2x" alt="" />
+              <Image src="/img/photos/g8.jpg" srcSet="/img/photos/g8@2x.jpg 2x" alt="" />
             </figure>
           </div>
 
           <div className="col-md-6">
             <figure className="rounded">
-              <img src="/img/photos/g9.jpg" srcSet="/img/photos/g9@2x.jpg 2x" alt="" />
+              <Image src="/img/photos/g9.jpg" srcSet="/img/photos/g9@2x.jpg 2x" alt="" />
             </figure>
           </div>
 
           <div className="col-md-6">
             <figure className="rounded">
-              <img src="/img/photos/g10.jpg" srcSet="/img/photos/g10@2x.jpg 2x" alt="" />
+              <Image src="/img/photos/g10.jpg" srcSet="/img/photos/g10@2x.jpg 2x" alt="" />
             </figure>
           </div>
         </div>

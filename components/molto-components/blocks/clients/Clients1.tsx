@@ -8,7 +8,7 @@ const Clients1: FC = () => {
       {clientList.map((item) => (
         <div className="col-4 col-md-2" key={item}>
           <figure className="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4">
-            <img
+            <Image
               style={{
                 filter: 'grayscale(100%)',
                 maxHeight: '80px',

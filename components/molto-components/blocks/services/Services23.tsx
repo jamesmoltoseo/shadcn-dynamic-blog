@@ -17,7 +17,7 @@ const Services23: FC = () => {
         <div className="row gx-lg-0 gy-10 mb-15 mb-md-17 align-items-center">
           <div className="col-lg-6">
             <figure className="rounded mb-0">
-              <img
+              <Image
                 alt=""
                 className="img-fluid"
                 src="/img/illustrations/ui4.png"
@@ -32,7 +32,7 @@ const Services23: FC = () => {
         <div className="row gx-lg-0 gy-10 mb-15 mb-md-17 align-items-center">
           <div className="col-lg-6 order-lg-2 ms-auto">
             <figure className="rounded mb-0">
-              <img
+              <Image
                 alt=""
                 className="img-fluid"
                 src="/img/illustrations/ui1.png"
@@ -47,7 +47,7 @@ const Services23: FC = () => {
         <div className="row gx-lg-0 gy-10 align-items-center">
           <div className="col-lg-6">
             <figure className="rounded mb-0">
-              <img
+              <Image
                 alt=""
                 className="img-fluid"
                 src="/img/illustrations/ui5.png"

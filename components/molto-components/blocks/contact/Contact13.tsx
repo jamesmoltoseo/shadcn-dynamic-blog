@@ -6,7 +6,7 @@ const Contact13: FC = () => {
     <div className="row gx-3 gy-10 gy-lg-0 align-items-center">
       <div className="col-lg-6">
         <figure>
-          <img className="w-auto" src="/img/illustrations/3d3.png" srcSet="/img/illustrations/3d3@2x.png 2x" alt="" />
+          <Image className="w-auto" src="/img/illustrations/3d3.png" srcSet="/img/illustrations/3d3@2x.png 2x" alt="" />
         </figure>
       </div>
 

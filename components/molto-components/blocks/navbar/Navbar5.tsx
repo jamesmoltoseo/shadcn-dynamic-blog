@@ -73,7 +73,7 @@ const Navbar5: FC<NavbarProps> = (props) => {
   // legacyBehavior2 passHref2 
 href="/" className="d-flex justify-content-center flex-row align-items-center">
           <div>
-            <img
+            <Image
               className="logo"
               alt={All.HomeList[0].title.toLowerCase().replace(/ /g, '-')}
               width="30"

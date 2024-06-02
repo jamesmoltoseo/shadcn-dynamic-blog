@@ -6,7 +6,7 @@ const Tiles3: FC = () => {
     <div className="row gx-md-5 gy-5">
       <div className="col-md-6">
         <figure className="rounded mt-md-10 position-relative">
-          <img src="/img/photos/g5.jpg" srcSet="/img/photos/g5@2x.jpg 2x" alt="" />
+          <Image src="/img/photos/g5.jpg" srcSet="/img/photos/g5@2x.jpg 2x" alt="" />
         </figure>
       </div>
 
@@ -14,7 +14,7 @@ const Tiles3: FC = () => {
         <div className="row gx-md-5 gy-5">
           <div className="col-md-12 order-md-2">
             <figure className="rounded">
-              <img src="/img/photos/g6.jpg" srcSet="/img/photos/g6@2x.jpg 2x" alt="" />
+              <Image src="/img/photos/g6.jpg" srcSet="/img/photos/g6@2x.jpg 2x" alt="" />
             </figure>
           </div>
 

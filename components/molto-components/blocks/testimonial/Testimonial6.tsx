@@ -9,7 +9,7 @@ const Testimonial6: FC = () => {
           style={{ bottom: 0, left: '10%', width: '28%', zIndex: 2 }}
         >
           <figure>
-            <img src="/img/photos/co2.png" srcSet="/img/photos/co2@2x.png 2x" alt="coriss" />
+            <Image src="/img/photos/co2.png" srcSet="/img/photos/co2@2x.png 2x" alt="coriss" />
           </figure>
         </div>
 

@@ -12,7 +12,7 @@ const Hero16: FC = () => {
         <div className="row gy-10 gy-md-13 gy-lg-0 align-items-center">
           <div className="col-md-8 col-lg-5 d-flex position-relative mx-auto">
             <div className="img-mask mask-1" style={slideInDownAnimate('0ms')}>
-              <img src="/img/photos/about17.jpg" srcSet="/img/photos/about17@2x.jpg 2x" alt="" />
+              <Image src="/img/photos/about17.jpg" srcSet="/img/photos/about17@2x.jpg 2x" alt="" />
             </div>
 
             <div

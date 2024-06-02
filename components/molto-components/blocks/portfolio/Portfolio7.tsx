@@ -24,7 +24,7 @@ const Portfolio7: FC = () => {
 href="#">
                     <a>
                       <figure className="lift rounded mb-6">
-                        <img src="/img/photos/rp1.jpg" srcSet="/img/photos/rp1@2x.jpg 2x" alt="demo" />
+                        <Image src="/img/photos/rp1.jpg" srcSet="/img/photos/rp1@2x.jpg 2x" alt="demo" />
                       </figure>
                     </a>
                   </Link>
@@ -39,7 +39,7 @@ href="#">
 href="#">
                     <a>
                       <figure className="lift rounded mb-6">
-                        <img src="/img/photos/rp3.jpg" srcSet="/img/photos/rp3@2x.jpg 2x" alt="demo" />
+                        <Image src="/img/photos/rp3.jpg" srcSet="/img/photos/rp3@2x.jpg 2x" alt="demo" />
                       </figure>
                     </a>
                   </Link>
@@ -55,7 +55,7 @@ href="#">
 href="#">
                   <a>
                     <figure className="lift rounded mb-6">
-                      <img src="/img/photos/rp2.jpg" srcSet="/img/photos/rp2@2x.jpg 2x" alt="" />
+                      <Image src="/img/photos/rp2.jpg" srcSet="/img/photos/rp2@2x.jpg 2x" alt="" />
                     </figure>
                   </a>
                 </Link>

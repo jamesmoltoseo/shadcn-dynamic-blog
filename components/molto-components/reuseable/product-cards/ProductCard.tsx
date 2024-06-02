@@ -34,7 +34,7 @@ const ProductCard: FC<ProductCardProps> = (props) => {
   return (
     <div className={`project item ${className}`}>
       <figure className="rounded mb-6 position-relative overflow-hidden">
-        <img src={`/img/photos/${image}.jpg`} srcSet={`/img/photos/${image}@2x.jpg 2x`} alt="" />
+        <Image src={`/img/photos/${image}.jpg`} srcSet={`/img/photos/${image}@2x.jpg 2x`} alt="" />
 
         <a
           href="#"

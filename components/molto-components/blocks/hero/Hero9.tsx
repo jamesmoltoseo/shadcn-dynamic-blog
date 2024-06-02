@@ -42,7 +42,7 @@ const Hero9: FC = () => {
             <div className="row">
               <div className="col-3 offset-1 offset-lg-0 col-lg-4 d-flex flex-column">
                 <div className="ms-auto mt-auto" style={zoomInAnimate('300ms')}>
-                  <img
+                  <Image
                     className="img-fluid rounded shadow-lg"
                     src="/img/photos/sa20.jpg"
                     srcSet="/img/photos/sa20@2x.jpg 2x"
@@ -51,7 +51,7 @@ const Hero9: FC = () => {
                 </div>
 
                 <div className="ms-auto mt-5 mb-10" style={zoomInAnimate('600ms')}>
-                  <img
+                  <Image
                     className="img-fluid rounded shadow-lg"
                     src="/img/photos/sa18.jpg"
                     srcSet="/img/photos/sa18@2x.jpg 2x"
@@ -62,7 +62,7 @@ const Hero9: FC = () => {
 
               <div className="col-4 col-lg-5" style={zoomInAnimate('0ms')}>
                 <div>
-                  <img
+                  <Image
                     className="w-100 img-fluid rounded shadow-lg"
                     src="/img/photos/sa16.jpg"
                     srcSet="/img/photos/sa16@2x.jpg 2x"
@@ -73,7 +73,7 @@ const Hero9: FC = () => {
 
               <div className="col-3 d-flex flex-column">
                 <div className="mt-auto" style={zoomInAnimate('300ms')}>
-                  <img
+                  <Image
                     alt="demo"
                     src="/img/photos/sa21.jpg"
                     srcSet="/img/photos/sa21@2x.jpg 2x"
@@ -82,7 +82,7 @@ const Hero9: FC = () => {
                 </div>
 
                 <div className="mt-5" style={zoomInAnimate('600ms')}>
-                  <img
+                  <Image
                     alt="demo"
                     src="/img/photos/sa19.jpg"
                     srcSet="/img/photos/sa19@2x.jpg 2x"
@@ -91,7 +91,7 @@ const Hero9: FC = () => {
                 </div>
 
                 <div className="mt-5 mb-10" style={zoomInAnimate('900ms')}>
-                  <img
+                  <Image
                     alt="demo"
                     src="/img/photos/sa17.jpg"
                     srcSet="/img/photos/sa17@2x.jpg 2x"

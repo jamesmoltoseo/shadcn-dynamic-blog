@@ -6,7 +6,7 @@ const Process16: FC = () => {
     <div className="row gx-3 gy-10 gy-lg-0 mb-15 mb-md-17 align-items-center">
       <div className="col-lg-5 mx-auto order-lg-2">
         <figure>
-          <img className="w-auto" src="/img/illustrations/3d5.png" srcSet="/img/illustrations/3d5@2x.png 2x" alt="" />
+          <Image className="w-auto" src="/img/illustrations/3d5.png" srcSet="/img/illustrations/3d5@2x.png 2x" alt="" />
         </figure>
       </div>
 

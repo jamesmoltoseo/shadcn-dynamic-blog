@@ -28,7 +28,7 @@ const About26: FC = () => {
   // legacyBehavior2 passHref2 
 href={url}>
                   <a>
-                    <img className="img-fluid" src={image} alt={title} />
+                    <Image className="img-fluid" src={image} alt={title} />
                     <span className="bg" />
                   </a>
                 </Link>

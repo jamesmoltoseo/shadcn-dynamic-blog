@@ -21,7 +21,7 @@ const TestimonialCard3: FC<TestimonialCard3Props> = (props) => {
     <div className={`card shadow-none`}>
       <figure className="w-100 overflow-hidden mb-5">
         {/* <Image width={100} height={29} layout="responsive" src={image} alt={alt} /> */}
-        <img width={100} height={29} src={image} alt={alt} style={{ background: 'transparent' }} />
+        <Image width={100} height={29} src={image} alt={alt} style={{ background: 'transparent' }} />
       </figure>
       <div className="card-body">
         <blockquote className="icon mb-0">

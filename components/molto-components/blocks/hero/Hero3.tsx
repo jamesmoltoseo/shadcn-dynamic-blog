@@ -50,7 +50,7 @@ const Hero3: FC = () => {
               </a>
 
               <figure className="rounded shadow-lg">
-                <img src="/img/photos/about13.jpg" srcSet="/img/photos/about13@2x.jpg 2x" alt="hero" />
+                <Image src="/img/photos/about13.jpg" srcSet="/img/photos/about13@2x.jpg 2x" alt="hero" />
               </figure>
             </div>
           </div>

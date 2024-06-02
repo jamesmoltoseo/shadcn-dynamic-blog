@@ -24,7 +24,7 @@ const Tiles9: FC<Tiles9Props> = ({ hiddenShape }) => {
 
       <div className="row gx-md-5 gy-5 position-relative align-items-center">
         <div className="col-6">
-          <img
+          <Image
             alt=""
             src="/img/photos/sa13.jpg"
             srcSet="/img/photos/sa13@2x.jpg 2x"
@@ -34,14 +34,14 @@ const Tiles9: FC<Tiles9Props> = ({ hiddenShape }) => {
         </div>
 
         <div className="col-6">
-          <img
+          <Image
             alt=""
             src="/img/photos/sa14.jpg"
             srcSet="/img/photos/sa14@2x.jpg 2x"
             className="img-fluid rounded shadow-lg mb-5"
             style={fadeInAnimate('900ms')}
           />
-          <img
+          <Image
             alt=""
             src="/img/photos/sa15.jpg"
             srcSet="/img/photos/sa15@2x.jpg 2x"

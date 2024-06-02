@@ -11,7 +11,7 @@ const Services10: FC = () => {
             <div className="row">
               <div className="col-lg-12">
                 <figure className="rounded mb-6">
-                  <img src="/img/photos/se1.jpg" srcSet="/img/photos/se1@2x.jpg 2x" alt="" />
+                  <Image src="/img/photos/se1.jpg" srcSet="/img/photos/se1@2x.jpg 2x" alt="" />
                 </figure>
               </div>
 
@@ -30,7 +30,7 @@ const Services10: FC = () => {
             <div className="row">
               <div className="col-lg-12 order-md-2">
                 <figure className="rounded mb-6 mb-md-0">
-                  <img src="/img/photos/se2.jpg" srcSet="/img/photos/se2@2x.jpg 2x" alt="" />
+                  <Image src="/img/photos/se2.jpg" srcSet="/img/photos/se2@2x.jpg 2x" alt="" />
                 </figure>
               </div>
 

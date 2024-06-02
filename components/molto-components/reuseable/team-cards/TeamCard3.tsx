@@ -17,7 +17,7 @@ const TeamCard3: FC<TeamCard3Props> = ({ name, image, designation }) => {
 
       <div className="card shadow-lg">
         <figure className="card-img-top">
-          <img className="img-fluid" src={image['1x']} srcSet={image['2x']} alt="" />
+          <Image className="img-fluid" src={image['1x']} srcSet={image['2x']} alt="" />
         </figure>
 
         <div className="card-body px-6 py-5">

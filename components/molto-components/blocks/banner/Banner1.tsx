@@ -1,16 +1,19 @@
 import { FC } from 'react';
+import Image from 'next/image'; // Import the Image component from next/image
 import GoogleAppBtn from 'components/common/GoogleAppBtn';
 
 const Banner1: FC = () => {
   return (
     <section className="wrapper bg-soft-primary">
       <div className="container pt-10 pb-15 py-lg-17 py-xl-20 py-xxl-22 position-relative">
-        <img
-          alt=""
+        <Image
+          alt="" // Add appropriate alt text for accessibility
           src="/img/photos/devices2.png"
-          srcSet="/img/photos/devices2@2x.png 2x"
+          srcSet="/img/photos/devices2@2x.png 2x" // Note: next/image handles srcSet internally, so this might be unnecessary
           className="position-lg-absolute col-12 col-lg-12 mt-lg-n50p mb-3 mb-md-10 mb-lg-0"
           style={{ top: '50%', left: '-23%' }}
+          width={500} // Set an appropriate width
+          height={500} // Set an appropriate height
         />
 
         <div className="row gx-lg-8 gx-xl-12 align-items-center">

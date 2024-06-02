@@ -18,7 +18,7 @@ const Process11: FC = () => {
           <div className="shape bg-dot leaf rellax w-17 h-18" style={{ bottom: '-2rem', left: '-0.7rem' }} />
 
           <figure className="rounded">
-            <img src="/img/photos/about20.jpg" srcSet="/img/photos/about20@2x.jpg 2x" alt="" />
+            <Image src="/img/photos/about20.jpg" srcSet="/img/photos/about20@2x.jpg 2x" alt="" />
           </figure>
         </div>
 

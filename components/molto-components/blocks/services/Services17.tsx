@@ -20,7 +20,7 @@ const Services17: FC = () => {
             <div className="shape bg-dot primary rellax w-17 h-18" style={{ bottom: '-2rem', left: '-0.7rem' }} />
 
             <figure className="rounded mb-0">
-              <img src="/img/photos/se3.jpg" srcSet="/img/photos/se3@2x.jpg 2x" alt="" />
+              <Image src="/img/photos/se3.jpg" srcSet="/img/photos/se3@2x.jpg 2x" alt="" />
             </figure>
           </div>
 
@@ -46,7 +46,7 @@ const Services17: FC = () => {
             />
 
             <figure className="rounded mb-0">
-              <img src="/img/photos/se4.jpg" srcSet="/img/photos/se4@2x.jpg 2x" alt="" />
+              <Image src="/img/photos/se4.jpg" srcSet="/img/photos/se4@2x.jpg 2x" alt="" />
             </figure>
           </div>
 

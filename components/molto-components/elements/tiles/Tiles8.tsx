@@ -24,14 +24,14 @@ const Tiles8: FC<Tiles8Props> = ({ hiddenShape }) => {
 
       <div className="row gx-md-5 gy-5 position-relative">
         <div className="col-5">
-          <img
+          <Image
             alt="demo"
             src="/img/photos/sa9.jpg"
             srcSet="/img/photos/sa9@2x.jpg 2x"
             className="img-fluid rounded shadow-lg my-5 d-flex ms-auto"
             style={fadeInAnimate('300ms')}
           />
-          <img
+          <Image
             alt=""
             src="/img/photos/sa10.jpg"
             srcSet="/img/photos/sa10@2x.jpg 2x"
@@ -41,14 +41,14 @@ const Tiles8: FC<Tiles8Props> = ({ hiddenShape }) => {
         </div>
 
         <div className="col-7">
-          <img
+          <Image
             alt="demo"
             src="/img/photos/sa11.jpg"
             srcSet="/img/photos/sa11@2x.jpg 2x"
             className="img-fluid rounded shadow-lg mb-5"
             style={fadeInAnimate('900ms')}
           />
-          <img
+          <Image
             alt="demo"
             src="/img/photos/sa12.jpg"
             srcSet="/img/photos/sa12@2x.jpg 2x"

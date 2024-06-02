@@ -15,7 +15,7 @@ const Process3: FC = () => {
         />
 
         <figure className="rounded">
-          <img src="/img/photos/about7.jpg" srcSet="/img/photos/about7@2x.jpg 2x" alt="process" />
+          <Image src="/img/photos/about7.jpg" srcSet="/img/photos/about7@2x.jpg 2x" alt="process" />
         </figure>
       </div>
 

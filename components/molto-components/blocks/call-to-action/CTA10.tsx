@@ -29,7 +29,7 @@ const CTA10: FC = () => {
       </div>
 
       <figure>
-        <img src="/img/photos/clouds.png" alt="" />
+        <Image src="/img/photos/clouds.png" alt="" />
       </figure>
     </section>
   );

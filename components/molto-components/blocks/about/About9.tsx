@@ -13,7 +13,7 @@ const About9: FC = () => {
         />
 
         <figure className="rounded">
-          <img src="/img/photos/about10.jpg" srcSet="/img/photos/about10@2x.jpg 2x" alt="" />
+          <Image src="/img/photos/about10.jpg" srcSet="/img/photos/about10@2x.jpg 2x" alt="" />
         </figure>
       </div>
 

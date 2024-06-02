@@ -29,7 +29,7 @@ const Tiles4: FC = () => {
       {images.map(({ id, className, image }) => (
         <div className={className} key={id}>
           <figure className="rounded">
-            <img src={image['1x']} srcSet={image['2x']} alt="" />
+            <Image src={image['1x']} srcSet={image['2x']} alt="" />
           </figure>
         </div>
       ))}

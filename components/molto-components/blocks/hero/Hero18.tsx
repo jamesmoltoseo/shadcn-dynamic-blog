@@ -80,7 +80,7 @@ const Hero18: FC = () => {
                   </div>
 
                   <div className="col-lg-6">
-                    <img
+                    <Image
                       alt="demo"
                       className="img-fluid mb-n18"
                       src="/img/illustrations/3d6.png"

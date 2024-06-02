@@ -8,7 +8,7 @@ const Footer15: FC = () => {
         <div className="row gx-lg-0 gy-6">
           <div className="col-lg-4">
             <div className="widget">
-              <img className="mb-4" src="/img/logo-dark.png" srcSet="/img/logo-dark@2x.png 2x" alt="" />
+              <Image className="mb-4" src="/img/logo-dark.png" srcSet="/img/logo-dark@2x.png 2x" alt="" />
               <p className="lead mb-0">
                 I'm Molto, a photographer specializing in food, drink and product photography.
               </p>

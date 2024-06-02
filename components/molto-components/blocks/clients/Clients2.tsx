@@ -16,7 +16,7 @@ const Clients2: FC = () => {
           {clients.map(({ id, image }) => (
             <div className="col" key={id}>
               <figure className="px-4 px-lg-3 px-xxl-5">
-                <img src={image} alt="brand" />
+                <Image src={image} alt="brand" />
               </figure>
             </div>
           ))}

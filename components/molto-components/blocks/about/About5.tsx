@@ -6,7 +6,7 @@ const About5: FC = () => {
     <Fragment>
       <div className="col-lg-7">
         <figure>
-          <img className="w-auto" src="/img/illustrations/i8.png" srcSet="/img/illustrations/i8@2x.png 2x" alt="" />
+          <Image className="w-auto" src="/img/illustrations/i8.png" srcSet="/img/illustrations/i8@2x.png 2x" alt="" />
         </figure>
       </div>
 

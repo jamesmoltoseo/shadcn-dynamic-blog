@@ -21,7 +21,7 @@ const About24: FC = () => {
         <div className="row gx-md-8 gx-xl-12 gy-6 align-items-center">
           <div className="col-md-8 col-lg-6 mx-auto">
             <div className="img-mask mask-1">
-              <img src="/img/photos/about29.jpg" srcSet="/img/photos/about29@2x.jpg 2x" alt="" />
+              <Image src="/img/photos/about29.jpg" srcSet="/img/photos/about29@2x.jpg 2x" alt="" />
             </div>
           </div>
 

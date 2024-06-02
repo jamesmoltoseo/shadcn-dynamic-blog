@@ -85,7 +85,7 @@ const Services22_1: FC = () => {
           <div className="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
             <div className="col-lg-6">
               <figure className="rounded shadow-lg">
-                <img src="/img/photos/se5.jpg" srcSet="/img/photos/se5@2x.jpg 2x" alt="" />
+                <Image src="/img/photos/se5.jpg" srcSet="/img/photos/se5@2x.jpg 2x" alt="" />
               </figure>
             </div>
 
@@ -97,7 +97,7 @@ const Services22_1: FC = () => {
           <div className="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
             <div className="col-lg-6 order-lg-2">
               <figure className="rounded shadow-lg">
-                <img src="/img/photos/se6.jpg" srcSet="/img/photos/se6@2x.jpg 2x" alt="" />
+                <Image src="/img/photos/se6.jpg" srcSet="/img/photos/se6@2x.jpg 2x" alt="" />
               </figure>
             </div>
 
@@ -109,7 +109,7 @@ const Services22_1: FC = () => {
           <div className="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
             <div className="col-lg-6">
               <figure className="rounded shadow-lg">
-                <img src="/img/photos/se7.jpg" srcSet="/img/photos/se7@2x.jpg 2x" alt="" />
+                <Image src="/img/photos/se7.jpg" srcSet="/img/photos/se7@2x.jpg 2x" alt="" />
               </figure>
             </div>
 

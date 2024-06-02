@@ -26,7 +26,7 @@ const Process1: FC<titleType> = ({ subtitle, title, body, displayButton, list, b
 
           <div className="col-lg-6 order-1">
             {src !== '' && (
-              <img
+              <Image
                 width={500}
                 height={'auto'}
                 src={src}

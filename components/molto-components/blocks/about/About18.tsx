@@ -7,7 +7,7 @@ const About18: FC = () => {
     <div className="row gx-md-8 gy-10 align-items-center">
       <div className="col-lg-6 offset-lg-1 order-lg-2 position-relative">
         <figure className="rounded">
-          <img className="img-fluid" src="/img/photos/about27.jpg" srcSet="/img/photos/about27@2x.jpg 2x" alt="" />
+          <Image className="img-fluid" src="/img/photos/about27.jpg" srcSet="/img/photos/about27@2x.jpg 2x" alt="" />
         </figure>
 
         <div className="card shadow-lg position-absolute d-none d-md-block" style={{ top: '15%', left: '-7%' }}>

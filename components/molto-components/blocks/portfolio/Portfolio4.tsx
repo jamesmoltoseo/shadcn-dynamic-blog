@@ -33,7 +33,7 @@ const Portfolio4: FC = () => {
   // legacyBehavior2 passHref2 
 href="#">
                       <a>
-                        <img className="img-fluid" src={item.image['1x']} srcSet={item.image['2x']} alt="" />
+                        <Image className="img-fluid" src={item.image['1x']} srcSet={item.image['2x']} alt="" />
                         <span className="bg" />
                       </a>
                     </Link>

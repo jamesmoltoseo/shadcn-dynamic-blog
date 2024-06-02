@@ -1,7 +1,7 @@
 ## NextJS 14, Tailwind, Shadcn UI, MDX and Velite Blog Template
 
 <p align="center">
- <img src="https://i.imgur.com/VgnktQH.png" width="400">
+ <Image src="https://i.imgur.com/VgnktQH.png" width="400">
 </p>
 
 In this repo is a simple implementation of a markdown static blog, a demo can be seen [here](https://my-first-blog-dusky.vercel.app/), Features include:

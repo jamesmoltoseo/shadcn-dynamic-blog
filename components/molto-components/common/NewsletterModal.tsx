@@ -24,7 +24,7 @@ const NewsletterModal: FC = () => {
             <div className="row">
               <div className="col-md-10 offset-md-1">
                 <figure className="mb-6">
-                  <img src="/img/illustrations/i7.png" srcSet="/img/illustrations/i7@2x.png 2x" alt="" />
+                  <Image src="/img/illustrations/i7.png" srcSet="/img/illustrations/i7@2x.png 2x" alt="" />
                 </figure>
               </div>
             </div>

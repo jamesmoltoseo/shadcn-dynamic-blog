@@ -8,7 +8,7 @@ const Process10: FC = () => {
     <div className="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center">
       <div className="col-lg-7">
         <figure>
-          <img className="w-auto" src="/img/illustrations/i8.png" srcSet="/img/illustrations/i8@2x.png 2x" alt="" />
+          <Image className="w-auto" src="/img/illustrations/i8.png" srcSet="/img/illustrations/i8@2x.png 2x" alt="" />
         </figure>
       </div>
 

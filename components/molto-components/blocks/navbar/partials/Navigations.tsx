@@ -30,7 +30,7 @@ const Navigations: FC = () => {
   // legacyBehavior2 passHref2 
 href={url}>
                     <a className="dropdown-item">
-                      <img
+                      <Image
                         alt={title}
                         src={`/img/demos/${thumnail}.jpg`}
                         srcSet={`/img/demos/${thumnail}@2x.jpg 2x`}

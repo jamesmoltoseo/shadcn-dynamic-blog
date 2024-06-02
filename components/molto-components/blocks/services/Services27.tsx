@@ -54,7 +54,7 @@ const Card: FC<CardProps> = ({ image, title, className = '' }) => (
   // legacyBehavior2 passHref2 
 href="#">
         <a>
-          <img className="img-fluid" src={image} alt="" />
+          <Image className="img-fluid" src={image} alt="" />
           <span className="bg" />
         </a>
       </Link>

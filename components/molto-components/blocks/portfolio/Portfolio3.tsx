@@ -29,7 +29,7 @@ const Portfolio3: FC = () => {
             {portfolioList2.map(({ id, url, image, category, title }) => (
               <Fragment key={id}>
                 <figure className="rounded mb-7">
-                  <img src={image['1x']} srcSet={image['2x']} alt="" />
+                  <Image src={image['1x']} srcSet={image['2x']} alt="" />
                 </figure>
 
                 <div className="project-details d-flex justify-content-center flex-column">

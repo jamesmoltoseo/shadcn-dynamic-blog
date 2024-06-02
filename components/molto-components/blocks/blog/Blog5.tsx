@@ -33,7 +33,7 @@ const Blog5: FC = () => {
   // legacyBehavior2 passHref2 
 href="#">
                         <a>
-                          <img src={item.image['1x']} srcSet={item.image['2x']} alt="" />
+                          <Image src={item.image['1x']} srcSet={item.image['2x']} alt="" />
                           <span className="bg" />
                         </a>
                       </Link>

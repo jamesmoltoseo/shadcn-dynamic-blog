@@ -29,7 +29,7 @@ const Hero12: FC = () => {
 
           <div className="col-lg-7" style={slideInDownAnimate('0ms')}>
             <figure>
-              <img className="w-auto" src="/img/illustrations/i6.png" srcSet="/img/illustrations/i6@2x.png 2x" alt="" />
+              <Image className="w-auto" src="/img/illustrations/i6.png" srcSet="/img/illustrations/i6@2x.png 2x" alt="" />
             </figure>
           </div>
         </div>

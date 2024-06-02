@@ -106,7 +106,7 @@ const BlockLayout: FC<BlockLayoutProps> = ({ title, children }) => {
             </div>
           </div>
 
-          <img className="img-fluid" src="/img/demos/f1.png" srcSet="/img/demos/f1@2x.png 2x" alt="demo" />
+          <Image className="img-fluid" src="/img/demos/f1.png" srcSet="/img/demos/f1@2x.png 2x" alt="demo" />
         </div>
       </section>
     </Fragment>

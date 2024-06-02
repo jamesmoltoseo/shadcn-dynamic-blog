@@ -21,7 +21,7 @@ const Footer16: FC = () => {
 href="#">
                   <a>
                     <figure className="rounded">
-                      <img src="/img/photos/a4.jpg" alt="" />
+                      <Image src="/img/photos/a4.jpg" alt="" />
                     </figure>
                   </a>
                 </Link>
@@ -46,7 +46,7 @@ href="#">
 href="#">
                   <a>
                     <figure className="rounded">
-                      <img src="/img/photos/a5.jpg" alt="" />
+                      <Image src="/img/photos/a5.jpg" alt="" />
                     </figure>
                   </a>
                 </Link>
@@ -71,7 +71,7 @@ href="#">
 href="#">
                   <a>
                     <figure className="rounded">
-                      <img src="/img/photos/a6.jpg" alt="" />
+                      <Image src="/img/photos/a6.jpg" alt="" />
                     </figure>
                   </a>
                 </Link>

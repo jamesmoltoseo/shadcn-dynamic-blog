@@ -40,7 +40,7 @@ const Hero11: FC = () => {
           <div className="col-lg-5 offset-lg-1">
             <div className="swiper-container shadow-lg">
               <Carousel slidesPerView={1} className="dots-over">
-                <img alt="" className="rounded" src="/img/photos/about21.jpg" srcSet="/img/photos/about21@2x.jpg 2x" />
+                <Image alt="" className="rounded" src="/img/photos/about21.jpg" srcSet="/img/photos/about21@2x.jpg 2x" />
 
                 <div>
                   <a
@@ -53,7 +53,7 @@ const Hero11: FC = () => {
                     <i className="icn-caret-right" />
                   </a>
 
-                  <img
+                  <Image
                     alt=""
                     className="rounded"
                     src="/img/photos/about22.jpg"
@@ -61,7 +61,7 @@ const Hero11: FC = () => {
                   />
                 </div>
 
-                <img alt="" className="rounded" src="/img/photos/about23.jpg" srcSet="/img/photos/about23@2x.jpg 2x" />
+                <Image alt="" className="rounded" src="/img/photos/about23.jpg" srcSet="/img/photos/about23@2x.jpg 2x" />
               </Carousel>
             </div>
           </div>

@@ -45,7 +45,7 @@ const Portfolio5: FC = () => {
                 <div className={`project item col-md-6 col-xl-4 ${category}`} key={id}>
                   <figure className="overlay overlay-1 rounded">
                     <a href={`/img/photos/${image}-full.jpg`} data-glightbox data-gallery="shots-group">
-                      <img src={`/img/photos/${image}.jpg`} alt={title} />
+                      <Image src={`/img/photos/${image}.jpg`} alt={title} />
                       <span className="bg" />
                     </a>
                     <figcaption>

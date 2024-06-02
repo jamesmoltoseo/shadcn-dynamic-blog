@@ -37,7 +37,7 @@ const Director: FC<titleType> = ({ title }) => {
                       height: '150px'
                     }}
                   >
-                    <img
+                    <Image
                       width={'97%'}
                       height={'100%'}
                       src="/img/director/jamie.png"
@@ -46,7 +46,7 @@ const Director: FC<titleType> = ({ title }) => {
                     />
                     
                   </div>
-                  {/* <img src="/img/director/jamie.png" width={} /> */}
+                  {/* <Image src="/img/director/jamie.png" width={} /> */}
                 </div>
                 <div className="d-block ms-md-5 mobile-12">
                   <p>

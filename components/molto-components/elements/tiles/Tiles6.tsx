@@ -5,7 +5,7 @@ const Tiles6: FC = () => {
   return (
     <div className="row gx-0 mb-16 mb-mb-20">
       <div className="col-9 col-sm-10 col-lg-9 mx-auto mt-n15 mt-md-n20">
-        <img
+        <Image
           alt="hero"
           src="/img/photos/sa1.jpg"
           srcSet="/img/photos/sa1@2x.jpg 2x"
@@ -13,7 +13,7 @@ const Tiles6: FC = () => {
           style={animation({ name: 'slideInUp', delay: '1500ms' })}
         />
 
-        <img
+        <Image
           alt="demo"
           src="/img/photos/sa2.jpg"
           className="position-absolute rounded shadow-lg"
@@ -26,7 +26,7 @@ const Tiles6: FC = () => {
           }}
         />
 
-        <img
+        <Image
           alt="demo"
           src="/img/photos/sa3.jpg"
           className="position-absolute rounded shadow-lg"
@@ -39,7 +39,7 @@ const Tiles6: FC = () => {
           }}
         />
 
-        <img
+        <Image
           alt="demo"
           src="/img/photos/sa4.jpg"
           className="position-absolute rounded shadow-lg"

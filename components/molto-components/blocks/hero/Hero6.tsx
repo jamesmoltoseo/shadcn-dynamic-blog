@@ -6,7 +6,7 @@ const Hero6: FC = () => {
   return (
     <section className="wrapper bg-soft-primary">
       <div className="container pt-5 pb-15 py-lg-17 py-xl-19 pb-xl-20 position-relative">
-        <img
+        <Image
           alt="hero"
           src="/img/photos/devices.png"
           srcSet="/img/photos/devices@2x.png 2x"

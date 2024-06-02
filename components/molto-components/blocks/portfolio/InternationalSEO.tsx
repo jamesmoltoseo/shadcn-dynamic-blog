@@ -33,7 +33,7 @@ const InternationalSEO = () => {
               <div>
                 {/* <a title={title} className="dropdown-item"> */}
                 <figure className="w-100 overflow-hidden">
-                  <img
+                  <Image
                     alt={All.InternationalSEOArrays[item].keywords[1].title}
                     src={
                       '/img/clients/' +

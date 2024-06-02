@@ -13,7 +13,7 @@ const Contact2: FC<titleType> = ({ title, lead, body }) => {
   return (
     <div className="row gx-0">
       <div className="col-lg-6">
-        <img
+        <Image
           className="h-100 w-100 image-wrapper object-fit-cover rounded-lg-start d-none d-md-block"
           width={300}
           height={300}

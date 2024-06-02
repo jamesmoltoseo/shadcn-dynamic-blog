@@ -31,7 +31,7 @@ const Navbar4: FC<Navbar4Props> = ({ navClassName, onePageDemo }) => {
             <div className="navbar-brand">
               <NextLink
                 href="/"
-                title={<img alt="Molto SEO" src="/img/logo/molto-seo.png" 
+                title={<Image alt="Molto SEO" src="/img/logo/molto-seo.png" 
                 // srcSet="/img/logo/molto-seo@2x.png 2x" 
                 />}
               />

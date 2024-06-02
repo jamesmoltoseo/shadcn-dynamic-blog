@@ -25,7 +25,7 @@ const Services26: FC = () => {
   // legacyBehavior2 passHref2 
 href={url}>
                     <a>
-                      <img className="img-fluid" src={image['1x']} srcSet={image['2x']} alt="" />
+                      <Image className="img-fluid" src={image['1x']} srcSet={image['2x']} alt="" />
                       <span className="bg" />
                     </a>
                   </Link>

@@ -21,7 +21,7 @@ const Services24: FC = () => {
             <div className="col-lg-4" key={id}>
               <div className="px-md-15 px-lg-3">
                 <figure className="mb-6">
-                  <img className="img-fluid" src={image['1x']} srcSet={image['2x']} alt="" />
+                  <Image className="img-fluid" src={image['1x']} srcSet={image['2x']} alt="" />
                 </figure>
                 <h3>{title}</h3>
                 <p className="mb-2">{description}</p>

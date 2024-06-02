@@ -15,7 +15,7 @@ const About15: FC = () => {
         />
 
         <figure className="rounded">
-          <img src="/img/photos/about19.jpg" srcSet="/img/photos/about19@2x.jpg 2x" alt="" />
+          <Image src="/img/photos/about19.jpg" srcSet="/img/photos/about19@2x.jpg 2x" alt="" />
         </figure>
       </div>
 

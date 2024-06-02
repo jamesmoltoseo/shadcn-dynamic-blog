@@ -13,7 +13,7 @@ const Hero21: FC = () => {
         <div className="row gx-lg-8 gx-xl-12 gy-10 gy-xl-0 mb-14 align-items-center">
           <div className="col-lg-7 order-lg-2">
             <figure>
-              <img
+              <Image
                 alt="demo"
                 className="img-auto"
                 src="/img/illustrations/i21.png"
@@ -43,7 +43,7 @@ const Hero21: FC = () => {
         <div className="row row-cols-4 row-cols-md-4 row-cols-lg-7 row-cols-xl-7 gy-10 mb-2 d-flex align-items-center justify-content-center">
           {clientList.map((item) => (
             <div className="col" key={item}>
-              <img className="img-fluid px-md-3 px-lg-0 px-xl-2 px-xxl-5" src={item} alt="client" />
+              <Image className="img-fluid px-md-3 px-lg-0 px-xl-2 px-xxl-5" src={item} alt="client" />
             </div>
           ))}
         </div>

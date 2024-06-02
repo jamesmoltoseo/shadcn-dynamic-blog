@@ -31,7 +31,7 @@ const Facts14: FC = () => {
       </div>
 
       <figure>
-        <img src="/img/photos/about26.png" srcSet="/img/photos/about26@2x.png 2x" alt="" />
+        <Image src="/img/photos/about26.png" srcSet="/img/photos/about26@2x.png 2x" alt="" />
       </figure>
     </Fragment>
   );

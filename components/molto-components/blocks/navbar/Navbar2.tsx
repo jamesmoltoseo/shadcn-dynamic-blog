@@ -49,7 +49,7 @@ const Navbar2: FC<Navbar2Props> = ({ navClassName }) => {
             <div className="navbar-brand">
                 <NextLink
                   href="/"
-                  title={<img alt="Molto SEO" src="/img/logo/molto-seo.png" 
+                  title={<Image alt="Molto SEO" src="/img/logo/molto-seo.png" 
                   // srcSet="/img/logo/molto-seo@2x.png 2x" 
                 />}
               />
@@ -109,7 +109,7 @@ const Navbar2: FC<Navbar2Props> = ({ navClassName }) => {
   // legacyBehavior2 passHref2 
 href={url}>
                                 <a className="dropdown-item">
-                                  <img
+                                  <Image
                                     alt={title}
                                     src={`/img/demos/${thumnail}.jpg`}
                                     srcSet={`/img/demos/${thumnail}@2x.jpg 2x`}
@@ -197,7 +197,7 @@ href={url}>
 href={url}>
                                 <a className="dropdown-item">
                                   <div className="rounded img-svg d-none d-lg-block p-4 mb-lg-2">
-                                    <img className="rounded-0" src={thumnail} alt="" />
+                                    <Image className="rounded-0" src={thumnail} alt="" />
                                   </div>
 
                                   <span>{title}</span>
