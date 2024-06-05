@@ -61,8 +61,6 @@ const siteTitle = "Sports Bet";
 export default function Home() {
   return (
     <div className="containerflex min-h-screen w-full flex-col dark bg-black">
-      
-
       <main className="container flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-8">
         <div id="column-primary" className="page-column">
           <div className="column-element-wrapper">

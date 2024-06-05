@@ -5,7 +5,7 @@ import {
 } from "react-feather";
 import { cardImage } from "../public/img/bgs/1.png";
 
-export const navItems = [
+export const navTopItems = [
   "Inplay",
   "Cricket",
   "Futebol",
@@ -19,6 +19,7 @@ export const navItems = [
   "Slot Games",
   "Crash Games",
 ];
+export const navMainItems = ["Esportivas", "In-Play"];
 
 export const bannerContent = [
   {

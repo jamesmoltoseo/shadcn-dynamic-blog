@@ -3,19 +3,16 @@ import CardsFeatures from "@/components/cards-features";
 import Banner from "@/components/hero-banner";
 import HomeCarousel from "@/components/home-carousel";
 import { bannerContent } from "../../data/home";
-
+import NavSide from "@/components/nav-side";
+import Dashboard from "@/components/dashboard";
 interface CardData {
   title: string;
-  icon: React.ElementType;
   value: string;
   description: string;
+  image: string;
 }
 
-interface HomeProps {
-  cardsFeaturesData: CardData[];
-}
-
-const Home: React.FC<HomeProps> = () => {
+const Home: React.FC = () => {
   const { background, title, text, buttonText } = bannerContent[0];
   const cardsFeaturesData = [
     {
@@ -50,22 +47,24 @@ const Home: React.FC<HomeProps> = () => {
       description: "+12.3% from last month",
       image: "/img/bgs/2.jpeg",
     },
-  ]; 
+  ];
 
   return (
     <div className="flex min-h-screen w-full flex-col bg-white dark:bg-background">
       <main className="bg-white dark:bg-background">
-        {/* <HomeCarousel /> */}
-        <Banner
-          bannerBg={background}
-          title={title}
-          text={text}
-          buttonText={buttonText}
-        />
-        <div className="container flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-8">
-          <CardsFeatures data={cardsFeaturesData} />
-        </div>
-       
+        <div className="min-h-screen w-full flex items-start justify-start">
+          {/* <HomeCarousel /> */}
+          <div className="w-[250px]">
+            <Dashboard />
+          </div><div className="w-full">
+          <Banner
+            bannerBg={background}
+            title={title}
+            text={text}
+            buttonText={buttonText}
+          /><CardsFeatures data={cardsFeaturesData} /></div>
+          </div>
+          
       </main>
     </div>
   );
