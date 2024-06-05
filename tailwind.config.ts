@@ -18,8 +18,16 @@ const config = {
         "2xl": "1400px",
       },
     },
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',  // Default Tailwind 2xl breakpoint, you can override if necessary
+    },
     extend: {
       fontFamily: {
+        stallman: ['Manly Man', 'sans-serif'],
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },
       colors: {

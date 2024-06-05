@@ -17,22 +17,35 @@ export default function Banner({ bannerBg, title, text, buttonText }) {
           width={1732}
           height={511}
           layout="responsive"
-          // style={{ objectFit: 'cover' }}
           priority
           className="relative"
         />
         <div className="text-center absolute top-0 flex justify-center items-center flex-col h-full">
           <div className="container">
-            <h1 className="max-w-2xl text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold text-center text-white  font-bold leading-none tracking-tighter text-neutral-600 md:text-5xl lg:text-6xl lg:max-w-7xl">
-              {title}
-            </h1>
-            <p className="max-w-xl mx-auto mt-8 text-base leading-relaxed text-gray-500">
-              {text}
-            </p>
-            <div className="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
-              <div className="mt-3 rounded-lg sm:mt-0">
-                <Button asChild size="sm" className="ml-auto gap-1">
-                  <Link href="#">{buttonText}</Link>
+            <div style={{ width: 700 }}>
+              <h1
+              // hack
+                style={{ lineHeight: 1.375, color: '#fcf250'  }}
+                className="text-accent text-center font-normal !text-white  dark:text-neutral-600 text-4xl"
+              >
+                {title}
+              </h1>
+              {/* hack */}
+              <p style={{padding: "0 40px 0 40px"}} className="max-w-[600px] mx-auto my-8 lg:text-1xl leading-relaxed text-white">
+                {text}
+              </p>
+              <div className="rounded-lg">
+                <Button
+                  size="lg"
+                  variant="destructive"
+                  className="ml-auto gap-1"
+                >
+                  <Link
+                    href="#"
+                    className="text-2xl uppercase font-bold dark:text-primary"
+                  >
+                    {buttonText}
+                  </Link>
                 </Button>
               </div>
             </div>

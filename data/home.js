@@ -23,8 +23,8 @@ export const navItems = [
 export const bannerContent = [
   {
     background: "/img/banners/homepage/aposta-esportiva.webp",
-    title: "Uma experiência de aposta esportiva sem igual",
-    text: "Junte-se hoje e vivencie a emoção das apostas online e dos jogos de cassino.",
+    title: "experimente apostas esportivas sem igual",
+    text: "Junte-se hoje e vivencie a emoção das apostas online e dos jogos de cassino. Experimente a emoção por si mesmo. Só existe uma Casa Dourada.",
     buttonText: "Play now!",
   },
 ];

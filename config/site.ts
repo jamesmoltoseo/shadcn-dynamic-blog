@@ -2,11 +2,11 @@ export const siteConfig = {
   name: "Casa Dourada",
   url: "https://casadourada.bet",
   description: "Aposta Esportiva",
-  author: "Molto",
+  author: "Casa Dourada",
   links: {
     twitter: "https://twitter.com/jollyshopland",
     github: "https://github.com/jolbol1",
-    personalSite: "https://jamesshopland.com",
+    personalSite: "https://casadourada.bet",
   },
 };
 

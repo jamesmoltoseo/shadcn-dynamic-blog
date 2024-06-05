@@ -53,8 +53,8 @@ const Home: React.FC<HomeProps> = () => {
   ]; 
 
   return (
-    <div className="flex min-h-screen w-full flex-col bg-black">
-      <main>
+    <div className="flex min-h-screen w-full flex-col bg-white dark:bg-background">
+      <main className="bg-white dark:bg-background">
         {/* <HomeCarousel /> */}
         <Banner
           bannerBg={background}
@@ -65,6 +65,7 @@ const Home: React.FC<HomeProps> = () => {
         <div className="container flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-8">
           <CardsFeatures data={cardsFeaturesData} />
         </div>
+       
       </main>
     </div>
   );
