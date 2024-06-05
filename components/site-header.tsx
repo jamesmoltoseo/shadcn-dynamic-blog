@@ -51,9 +51,7 @@ export function SiteHeader() {
             </Link>
             <ModeToggle />
             <MobileNav />
-            <div className="flex w-full items-end justify-end gap-4 md:ml-auto md:gap-2 lg:gap-4">
-              <MenuMembers />
-            </div>
+            <MenuMembers />
           </nav>
         </div>
       </div>
