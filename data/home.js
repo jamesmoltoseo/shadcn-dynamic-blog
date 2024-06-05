@@ -1,4 +1,9 @@
-import { DollarSign, User as UserIcon, Users as UsersIcon } from "react-feather";
+import {
+  DollarSign,
+  User as UserIcon,
+  Users as UsersIcon,
+} from "react-feather";
+import { cardImage } from "../public/img/bgs/1.png";
 
 export const navItems = [
   "Inplay",
@@ -31,6 +36,7 @@ export const cardsFeaturesData = [
     icon: DollarSign,
     value: "$45,231.89",
     description: "+20.1% from last month",
+    image: "/img/banners/homepage/aposta-esportiva.webp",
   },
   {
     id: "dashboard-01-chunk-1",
@@ -38,6 +44,7 @@ export const cardsFeaturesData = [
     icon: UserIcon, // Replace with appropriate icon
     value: "1,250",
     description: "+15% from last month",
+    image: "../public/img/bgs/1.png",
   },
   {
     id: "dashboard-01-chunk-2",
@@ -45,5 +52,6 @@ export const cardsFeaturesData = [
     icon: UsersIcon, // Replace with appropriate icon
     value: "3,456",
     description: "+12.3% from last month",
+    image: "../public/img/bgs/1.png",
   },
 ];

@@ -78,6 +78,11 @@ const config = {
       },
     },
   },
+  variants: {
+    extend: {
+      scale: ['hover'],
+    }
+  },
   plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 } satisfies Config;
 

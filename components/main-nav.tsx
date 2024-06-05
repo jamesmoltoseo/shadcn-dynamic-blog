@@ -1,19 +1,29 @@
 "use client";
-
-import { siteConfig } from "@/config/site";
-import { Icons } from "./icons";
+import Image from "next/image"; 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useTheme } from "next-themes";
+import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
+import { Icons } from "./icons";
 import { navItems } from "@/data/home";
 
 export function MainNav() {
   const pathname = usePathname();
+  const { theme } = useTheme();
   return (
     <nav className="flex items-center space-x-4 lg:space-x-4">
       <Link href="/" className="mr-6 flex items-center space-x-2">
-        <Icons.logo className="h-6 w-6" />
-        <span className="font-bold">{siteConfig.name}</span>
+        <Image
+      src={theme === "light" ? "/img/logo/casa-dourada-light.png" : "/img/logo/casa-dourada-dark.png"}
+      alt={"Casa Dourada"}
+          width={125}
+          height={47}
+          priority
+          // hack
+          style={{height:  47, width:'auto'}}
+        />
+        <span className="sr-only">{siteConfig.name}</span>
       </Link>
       {navItems.map((item, index) => (
         <Link
